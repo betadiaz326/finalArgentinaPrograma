@@ -1,0 +1,63 @@
+<html>
+  <head>
+    <title>:Formularios - Betania Diaz</title>
+  </head>
+  <body>
+    <h2>Formularios</h2>
+    <p>
+      Son elementos que permiten la interaccion de un usuario con una página
+      web. Se componen de campos que permiten la insercion de datos.
+    </p>
+
+    <hr />
+
+    <form>
+      <label>Nombre:</label>
+      <input
+        type="texto"
+        name="nombre"
+        placeholder="Escribe tu nombre completo"
+      />
+      <br />
+
+      <label>Correo electronico:</label>
+      <input type="email" name="correo" placeholder="Ingresa tu correo" />
+      <br />
+
+      <label>Contraseña:</label>
+      <input type="password" name="password" placeholder="Tu contraseña no debe
+      tener más de 8 caracteres" maxlength"8">
+      <br />
+
+      <label>Fecha de nacimiento:</label>
+      <input type="date" name="fecha" />
+      <br />
+
+      <label>Pais:</label>
+      <select name="pais">
+        <option>Argentina</option>
+        <option>España</option>
+        <option>Chile</option>
+        <option>Mexico</option>
+      </select>
+      <br />
+
+      <label>Sexo:</label>
+      Mujer <input type="radio" name="sexo" value="mujer" /> Hombre
+      <input type="radio" name="sexo" value="hombre" />
+      <br />
+
+      <label>Seleccona tus pasatiempos</label><br />
+      <input type="checkbox" name="pasatiempos" /> Leer
+      <br />
+      <input type="checkbox" name="pasatiempos" /> Dibujar
+      <br />
+      <input type="checkbox" name="pasatiempos" /> Tocar algun instrumento
+      <br /><br />
+      <label>Queremos saber tu opinión:</label><br />
+      <textarea placeholder="Escribe tu opinion"></textarea>
+
+      <input type="submit" name="aceptar" value="Registrate" />
+    </form>
+  </body>
+</html>
